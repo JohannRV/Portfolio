@@ -1,0 +1,70 @@
+
+body{
+    background-color: #1d1d1d;
+    color: #F5EFED;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.container{
+    padding-top: 5rem;
+    display:block;
+}
+
+
+b{
+    color: #c8d7f6; 
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+a{
+   color:#8338EC;
+   &:hover{
+    color: #8338EC;
+    transition: 0.2s;
+   }
+}
+.social.accounts{
+    line-height: 26px;
+    align-items: center;
+    display: inline-flex ;
+    justify-content: space-between;
+    
+}
+
+.skills{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+}
+.work{
+    padding-top: 5rem;
+}
+
+.card{
+background: rgba(117, 117, 117, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(10.9px);
+-webkit-backdrop-filter: blur(10.9px);
+border: 1px solid rgba(117, 117, 117, 0.39);
+margin-bottom: 20px;
+}
+
+footer{
+    padding: 10px;
+    color: #e1ebff;
+    border: 1px solid #6726be;
+    border-radius: 20px;
+}
+
+@media (max-width:576px) {
+    .container{
+        flex-direction: column;
+        display: inline-table;
+    }
+}

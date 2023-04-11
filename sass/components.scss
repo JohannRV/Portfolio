@@ -1,0 +1,168 @@
+$color-main:  #6726be ;
+$btn-color: #c8d7f6;
+
+.logo-principal{
+    width: 10rem;
+    top: 75%;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+}
+
+.info-btn{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    margin: 10px;
+    color: $color-main;
+    border: solid 1px $color-main;
+
+    padding: 10px;
+    border-radius: 15px;
+    &:hover{
+        color: $btn-color;
+        border: solid 1px $btn-color ;
+        transition: 0.2s;
+    }
+}
+.intro{
+    margin-top: 60px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 2.5rem;
+    
+   
+}
+#btn{
+    width: 22rem;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.paragraph{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    font-weight: 200;
+    font-size: 20px;
+    color: rgb(156 163 175);
+}
+.bi{
+    margin: 10px;
+}
+
+
+#linkedin:hover{
+    width: 3rem;
+    height: 3rem;
+    color: $btn-color;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    
+}
+
+#github:hover{
+    width: 3rem;
+    height: 3rem;
+    color: $btn-color;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    
+}
+#mail:hover{
+    width: 3rem;
+    height: 3rem;
+    color: $btn-color;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    
+}
+
+img{
+    margin: 10px;
+    width: 7rem;
+    height: 7rem;
+}
+.word-skills{
+    color: #c8d7f6;
+    padding-top: 10rem;
+}
+
+.technologies{
+    display: inline-table;
+    width: 112px;
+    height: 112px;
+    border: solid 2px $color-main;
+    padding: 10px;
+    border-radius: 20px;
+    background: inherit;
+    overflow: hidden;
+
+    &:hover{
+        transform: translateY(-10px);
+        transition: 0.3s;
+        
+    }
+}
+
+.word-project{
+    color: #c8d7f6;
+    padding-bottom: 5rem;
+}
+
+.card-img-top{
+    padding-top:20px ;
+    width: 17rem;
+    height: 15rem;
+}
+.card-title{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #c8d7f6;
+}
+.card-text{
+    font-weight: 100;
+    color: #c8d7f6;
+}
+.used-technologies{
+    color: #c8d7f6;
+    padding: 3px;
+    width: 3.5rem;
+    text-align: center;
+    border: solid 1px #8338EC;
+    border-radius: 10px;
+}
+
+.personal-info{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.adress{
+    font-size: 30px;
+    font-weight: 100;
+    color: #c8d7f6;
+}
+
+.celular{
+    font-size: 30px;
+    font-weight: 100;
+    color: #c8d7f6;
+}
+.goodbye{
+    display: grid;
+    place-content: center;
+    font-size: 10px;
+    font-weight: 100;
+    color: #c8d7f6;
+}
+
+
