@@ -181,4 +181,11 @@ img{
 
 .card-title{
     cursor: pointer;
+    a{
+        &:hover{
+            color: #c8d7f6;
+            text-decoration: none;
+        }
+
+    }
 }

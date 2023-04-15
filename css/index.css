@@ -177,6 +177,10 @@ img {
 .card-title {
   cursor: pointer;
 }
+.card-title a:hover {
+  color: #c8d7f6;
+  text-decoration: none;
+}
 
 body {
   background-color: #1d1d1d;
