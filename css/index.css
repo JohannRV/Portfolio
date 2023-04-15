@@ -174,6 +174,22 @@ img {
   color: #c8d7f6;
 }
 
+.curriculum-vitae {
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #6726be;
+  border-radius: 20px;
+  padding: 5px;
+}
+.curriculum-vitae a {
+  color: #6726be;
+  text-decoration: none;
+}
+.curriculum-vitae a:hover {
+  color: #c8d7f6;
+}
+
 body {
   background-color: #1d1d1d;
   color: #F5EFED;
