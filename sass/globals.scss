@@ -71,6 +71,9 @@ footer{
             text-align: center;
             display: grid;
             flex-direction: column;
+            .technologies{
+                margin-left: 25px;
+            }
         }
         // .intro{
         //     font-size: 2rem;

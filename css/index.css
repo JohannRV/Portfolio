@@ -254,6 +254,9 @@ footer {
     display: grid;
     flex-direction: column;
   }
+  .container section .technologies {
+    margin-left: 25px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
