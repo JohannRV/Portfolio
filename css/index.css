@@ -254,6 +254,9 @@ footer {
     flex-direction: column;
     display: inline-table;
   }
+  .container h1 {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
