@@ -256,6 +256,8 @@ footer {
   }
   .container section .technologies {
     margin-left: 25px;
+    width: 15rem;
+    height: 16rem;
   }
 }
 
